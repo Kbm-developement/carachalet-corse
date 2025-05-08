@@ -25,8 +25,8 @@ const Content = () => {
         <div className="flex max-md:flex-col max-md:items-center gap-5">
           <Image src='/images/carte.jpg' width={400} height={600} alt="carte corse" className="rounded-lg max-md:w-[320px] max-md:h-[300px]" />
           <div className="flex-col">
-            <Image src='/images/home.JPG' width={450} height={350} alt="carte corse" className="rounded-lg h-[280px] max-md:w-full max-md:h-[300px]" />
-            <Image src='/images/mer_2.jpg' width={450} height={350} alt="carte corse" className="rounded-lg relative top-8 h-[280px] max-md:w-full max-md:h-[300px]" />
+            <Image src='/images/home.JPG' width={450} height={350} alt="montagnes" className="rounded-lg h-[280px] max-md:w-full max-md:h-[300px]" />
+            <Image src='/images/mer_2.jpg' width={450} height={350} alt="mer" className="rounded-lg relative top-8 h-[280px] max-md:w-full max-md:h-[300px]" />
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Content = () => {
       </div>
 
       <div className="flex max-md:flex-col md:gap-5 max-md:mx-5">
-        <Image src='/images/IMG_0636.jpg' width={400} height={500} alt="carte corse" className="rounded-md w-full md:w-1/2 object-contain" />
+        <Image src='/images/IMG_0636.JPG' width={400} height={500} alt="détente" className="rounded-md w-full md:w-1/2 object-contain" />
         <div className="space-y-5 my-5">
           <h2 className="text-2xl font-bold uppercase">Extérieurs et détente</h2>
           <p>
