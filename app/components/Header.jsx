@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Header = () => {
   return (
-    <div className="relative h-screen bg-[url('/images/home_2.jpg')] bg-cover bg-center">
+    <div className="relative h-screen bg-[url('/images/home_2.JPG')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gray-900/40 z-0" />
 
         <div className='absolute flex gap-10 md:gap-[50px] right-5 md:right-[50px] top-10 font-bold'>
