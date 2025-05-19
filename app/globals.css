@@ -7,10 +7,20 @@ body {
   background-color: #7D6B51;
   color: #ffffff;
 }
+p {
+  font-size: 14px;
+}
 h1 {
   font-family: var(--font-montserrat);
 }
 
 p {
   font-family: var(--font-montserrat);
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

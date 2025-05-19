@@ -13,7 +13,7 @@ const Header = () => {
           <p className="z-10 cursor-pointer text-xl md:text-2xl border-b hover:opacity-80 duration-300">FR</p>
         </div>
 
-        <div className='z-10 flex flex-col items-center justify-center h-1/2 translate-y-1/2'>
+        <div className='z-10 flex flex-col items-center justify-center text-center h-1/2 translate-y-1/2'>
           <h1 className='font-black text-[38px] lg:text-[52px]'>Carachalet Corsica</h1>
           <h2 className="text-lg lg:text-xl">Hébergement atypique entre mer et montagne</h2>
         </div>

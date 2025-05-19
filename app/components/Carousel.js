@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react'
+import React, { useRef ,useEffect, useState } from 'react'
 
 const images =[
     '/images/1.JPG',
@@ -7,46 +6,59 @@ const images =[
     '/images/4.JPG',
     '/images/5.JPG',
     '/images/6.JPG',
-]
-export default function Carousel() {
-    const [currentIndex, setCurrentIndex] = useState(0);
+];
+
+const Carousel = () => {
+    const [currentIndex, setCurrentIndex] = useState(2);
+    const containerRef = useRef(null);
+
+    useEffect(() => {
+      const container = containerRef.current;
+      const children = container?.children;
+      if (!container || !children) return;
+
+      const activeImage = children[currentIndex];
+      const containerWidth = container.offsetWidth;
+      const imageLeft = activeImage.offsetLeft;
+      const imageWidth = activeImage.offsetWidth;
+
+      const scrollLeft = imageLeft - (containerWidth / 2) + (imageWidth / 2);
+
+      container.scrollTo({
+        left: scrollLeft,
+        behavior: 'smooth',
+      });
+    }, [currentIndex]);
 
     const prevSlide = () => {
-        setCurrentIndex((currentIndex - 1 + images.length) % images.length);
+        setCurrentIndex(prev => (prev === 0 ? images.length - 1 : prev - 1));
     };
     const nextSlide = () => {
-        setCurrentIndex((currentIndex + 1) % images.length);
+        setCurrentIndex(prev => (prev === images.length - 1 ? 0 : prev + 1));
     };
 
     return (
-        <div className="relative w-full overflow-hidden rounded-lg shadow-md">
-          <div
-            className="flex transition-transform duration-500"
-            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+        <div className="relative w-full overflow-hidden py-10">
+          <div 
+            ref={containerRef}
+            className="flex overflow-x-scroll no-scrollbar scroll-smooth px-10 gap-5"
           >
             {images.map((src, i) => (
               <img
                 key={i}
                 src={src}
                 alt={`Image ${i + 1}`}
-                className="w-full flex-shrink-0 object-cover h-96 md:h-128 lg:object-fill"
+                onClick={() => setCurrentIndex(i)}
+                className={`rounded-lg transition-all duration-500 cursor-pointer object-cover
+                  ${i === currentIndex ? 'w-144 lg:w-160 scale-105 z-10 shadow-xl' : 'w-48 opacity-60 hover:opacity-90'}
+                `}
               />
             ))}
           </div>
     
-          {/* Navigation buttons */}
-          <button
-            onClick={prevSlide}
-            className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/40 p-2 rounded-full shadow cursor-pointer"
-          >
-            ‹
-          </button>
-          <button
-            onClick={nextSlide}
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/40 bg-opacity-70 p-2 rounded-full shadow cursor-pointer"
-          >
-            ›
-          </button>
+          
         </div>
       );
     }
+    
+export default Carousel;
