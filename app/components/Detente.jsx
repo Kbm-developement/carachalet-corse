@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Detente = () => {
   return (
 
-    <div className='px-4 md:px-10 2xl:px-[10%] my-10'>
+    <div className='px-4 md:px-10 2xl:px-[10%] py-10 text-emerald-800 bg-gray-100'>
         <div className="flex flex-col md:flex-row gap-8">
             <Image 
                 src='/images/IMG_0636.JPG' 

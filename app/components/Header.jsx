@@ -2,8 +2,8 @@ import Image from "next/image"
 
 const Header = () => {
   return (
-    <div className="relative h-screen bg-[url('/images/home_2.JPG')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-gray-900/40 z-0" />
+    <div className="relative h-screen bg-[url('/images/home_2.JPG')] bg-cover bg-center text-white">
+        <div className="absolute inset-0 bg-gray-900/45 z-0" />
 
         <div className='absolute flex gap-10 md:gap-[50px] right-5 md:right-[50px] top-10 font-bold'>
           <a href="tel:0675682536" className="z-10 cursor-pointer ">
@@ -14,7 +14,7 @@ const Header = () => {
         </div>
 
         <div className='z-10 flex flex-col items-center justify-center text-center h-1/2 translate-y-1/2'>
-          <h1 className='font-black text-[38px] lg:text-[52px]'>Carachalet Corsica</h1>
+          <h1 className='font-black text-[38px] lg:text-[52px] uppercase'>Carachalet Corsica</h1>
           <h2 className="text-lg lg:text-xl">Hébergement atypique entre mer et montagne</h2>
         </div>
         

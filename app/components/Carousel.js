@@ -38,7 +38,7 @@ const Carousel = () => {
     };
 
     return (
-        <div className="relative w-full overflow-hidden py-10">
+        <div className="relative w-full overflow-hidden pb-5">
           <div 
             ref={containerRef}
             className="flex overflow-x-scroll no-scrollbar scroll-smooth px-10 gap-5"

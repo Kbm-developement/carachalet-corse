@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Content = () => {
   return (
-    <div className="px-4 md:px-10 2xl:px-[10%] my-10 space-y-10 md:space-y-20">
+    <div className="px-4 md:px-10 2xl:px-[10%] py-10 space-y-10 md:space-y-20 text-emerald-800 bg-gray-100">
       <h2 className="text-xl md:text-2xl lg:text-4xl font-bold text-center uppercase">
         Vacances Nature au calme en Haute-Corse
       </h2>
@@ -28,7 +28,7 @@ const Content = () => {
           <p>Nous vous prêtons divers guides verts, cartes , prospectus touristiques.
           Quant aux amateurs de bateaux, ils trouveront leur bonheur au Port de plaisance de Taverna, à environ une douzaine de kilomètres.
           Pour faire vos courses, vous trouverez des commerces dans la plaine d’Alistro , à environ 9 km.</p>  
-          <button className='w-1/3 text-xl border rounded-lg p-2 bg-gray-200 hover:bg-[#7D6B51] text-[#7D6B51] hover:text-white duration-300 font-bold cursor-pointer'>Réservez</button>
+          <button className='w-1/3 text-xl border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800 hover:text-white duration-300 font-bold cursor-pointer'>Réservez</button>
         </div>
       </div> 
     </div>
