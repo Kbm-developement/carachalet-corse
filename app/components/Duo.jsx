@@ -6,14 +6,14 @@ import Carousel from './Carousel'
 const Duo = () => {
 
   return (
-    <div>
+    <div className='bg-gray-100 pt-10'>
       <div className='px-4 md:px-10 2xl:px-[10%] pt-10 bg-[#7D6B51] text-white'>
         <h2 className="text-xl md:text-2xl font-bold uppercase">
           Un duo charmant : Caravane rénovée & “Chalet” bois
         </h2>
         <div className="flex flex-col gap-10 pt-10">
           {/* Liste */}
-          <div className="flex flex-col md:flex-row mx-auto md:justify-between">
+          <div className="flex flex-col md:flex-row md:justify-between md:px-10 space-y-5">
             {/* La caravane */}
             <ul className="list-disc list-inside space-y-5">
               <li className="underline font-bold text-lg list-none">La caravane</li>
@@ -22,7 +22,7 @@ const Duo = () => {
               <li>Lavabo, penderie, vrais WC</li>
             </ul>
                   {/* Le chalet */}
-            <ul className="list-disc list-inside space-y-5 text-justify md:w-1/2">
+            <ul className="list-disc list-inside space-y-5 text-justify md:w-1/2 ">
               <li className="underline font-bold text-lg list-none">Le Chalet</li>
               <li>Espace repas avec cuisine équipée : évier double bac, réfrigérateur, lave-linge, micro-ondes, plancha, bouilloire, vaisselle, ventilateur</li>
               <li>Ouvert sur la nature avec vue sur un terrain arboré</li>

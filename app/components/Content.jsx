@@ -28,7 +28,7 @@ const Content = () => {
           <p>Nous vous prêtons divers guides verts, cartes , prospectus touristiques.
           Quant aux amateurs de bateaux, ils trouveront leur bonheur au Port de plaisance de Taverna, à environ une douzaine de kilomètres.
           Pour faire vos courses, vous trouverez des commerces dans la plaine d’Alistro , à environ 9 km.</p>  
-          <button className='w-1/3 text-xl border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800 hover:text-white duration-300 font-bold cursor-pointer'>Réservez</button>
+          <button className='lg:w-1/3 text-xl border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800 hover:text-white duration-300 font-bold cursor-pointer'>Réservez</button>
         </div>
       </div> 
     </div>

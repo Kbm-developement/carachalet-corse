@@ -3,18 +3,13 @@
 * {
   font-family: var(--font-inika);
 }
-body {
-  
-}
-p {
-  font-size: 14px;
-}
 h1 {
   font-family: var(--font-montserrat);
 }
 
 p {
   font-family: var(--font-montserrat);
+   font-size: 14px;
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;
