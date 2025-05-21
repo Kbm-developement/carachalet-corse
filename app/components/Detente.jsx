@@ -20,7 +20,7 @@ const Detente = () => {
           </p>
         </div>
         
-        <div className='flex gap-5'>
+        <div className='flex'>
           <Image 
             src='/images/12.JPG' 
             width={400} 

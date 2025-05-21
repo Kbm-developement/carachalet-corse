@@ -4,8 +4,8 @@ const images =[
     '/images/12.JPG',
     '/images/3.JPG',
     '/images/4.JPG',
-    '/images/5.JPG',
     '/images/6.JPG',
+    '/images/5.JPG',
 ];
 
 export default function Carousel() {
@@ -29,12 +29,12 @@ export default function Carousel() {
           {images.map((src, index) => (
             <div
               key={index}
-              className="snap-center flex-shrink-0 w-[80vw] md:w-[60vw] h-[60vh] md:h-[85vh] rounded-xl overflow-hidden shadow-md"
+              className="snap-center flex-shrink-0 w-[80vw] h-[60vh] rounded-xl overflow-hidden shadow-md"
             >
               <img
                 src={src}
                 alt={`Image ${index}`}
-                className="w-full h-full object-contain md:object-fill"
+                className="w-full h-full object-contain"
               />
             </div>
           ))}
