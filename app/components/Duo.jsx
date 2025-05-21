@@ -8,25 +8,26 @@ const Duo = () => {
   return (
     <div className='bg-gray-100 pt-10'>
       <div className='px-4 md:px-10 2xl:px-[10%] pt-10 bg-[#7D6B51] text-white'>
-        <h2 className="text-xl md:text-2xl font-bold uppercase">
-          Un duo charmant : Caravane rénovée & “Chalet” bois
+        <h2 className="text-lg md:text-xl font-bold uppercase">
+          Un duo charmant pour une à trois personnes <span className='px-2'>:</span> Caravane rénovée & “Chalet"
         </h2>
+        <p className='px-2'>La caravane est adossée à une structure tout en bois</p>
         <div className="flex flex-col gap-10 pt-10">
           {/* Liste */}
           <div className="flex flex-col md:flex-row md:justify-between md:px-10 space-y-5">
             {/* La caravane */}
             <ul className="list-disc list-inside space-y-5">
               <li className="underline font-bold text-lg list-none">La caravane</li>
-              <li>Un vrai lit confortable deux places</li>
+              <li>Un vrai lit confortable deux places.</li>
               <li>Un coin lecture convertible en lit d’appoint.</li>
-              <li>Lavabo, penderie, vrais WC</li>
+              <li>Lavabo, penderie, toilettes.</li>
             </ul>
                   {/* Le chalet */}
             <ul className="list-disc list-inside space-y-5 text-justify md:w-1/2 ">
               <li className="underline font-bold text-lg list-none">Le Chalet</li>
-              <li>Espace repas avec cuisine équipée : évier double bac, réfrigérateur, lave-linge, micro-ondes, plancha, bouilloire, vaisselle, ventilateur</li>
-              <li>Ouvert sur la nature avec vue sur un terrain arboré</li>
-              <li>Accès à une douche en plein air dans les arbres via un ponton en bois – un vrai régal !</li>
+              <li>Espace repas avec cuisine équipée : évier double bac, chauffe-eau, réfrigérateur, lave-linge, micro-ondes, plancha, bouilloire, vaisselle, ventilateur.</li>
+              <li>Ouvert sur la nature avec vue sur un terrain arboré.</li>
+              <li>Accès à une vraie douche en plein air dans les arbres, via un ponton en bois.</li>
             </ul>
           </div>
       

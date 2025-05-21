@@ -1,7 +1,7 @@
 import React, { useRef ,useEffect, useState } from 'react'
 
 const images =[
-    '/images/1.JPG',
+    '/images/12.JPG',
     '/images/3.JPG',
     '/images/4.JPG',
     '/images/5.JPG',

@@ -11,6 +11,7 @@ p {
   font-family: var(--font-montserrat);
    font-size: 14px;
 }
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

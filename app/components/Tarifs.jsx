@@ -46,7 +46,6 @@ const Tarifs = () => {
             <button className='border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800  hover:text-white duration-300 font-bold cursor-pointer'>Réservation</button>
             <button href='facebook.com' className='border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800 hover:text-white duration-300 font-bold cursor-pointer'>Contactez moi</button>
         </div>
-        
     </div>
   )
 }
