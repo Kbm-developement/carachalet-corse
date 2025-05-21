@@ -16,28 +16,28 @@ const Tarifs = () => {
                 <tbody>
                     <tr>
                         <td className="px-4 py-2 border-b">Mai</td>
-                        <td className="px-4 py-2 border-b">260 €</td>
-                        <td className="px-4 py-2 border-b">~ 37 €/nuit</td>
+                        <td className="px-4 py-2 border-b">280 €</td>
+                        <td className="px-4 py-2 border-b">~ 40 €/nuit</td>
                     </tr>
                     <tr>
                         <td className="px-4 py-2 border-b">Juin</td>
-                        <td className="px-4 py-2 border-b">360 €</td>
-                        <td className="px-4 py-2 border-b">~ 52 €/nuit</td>
+                        <td className="px-4 py-2 border-b">380 €</td>
+                        <td className="px-4 py-2 border-b">~ 54 €/nuit</td>
                     </tr>
                     <tr>
                         <td className="px-4 py-2 border-b">Juillet-Aout</td>
-                        <td className="px-4 py-2 border-b">460 €</td>
-                        <td className="px-4 py-2 border-b">~ 66 €/nuit</td>
+                        <td className="px-4 py-2 border-b">480 €</td>
+                        <td className="px-4 py-2 border-b">~ 68 €/nuit</td>
                     </tr>
                     <tr>
                         <td className="px-4 py-2 border-b">Septembre</td>
-                        <td className="px-4 py-2 border-b">360 €</td>
-                        <td className="px-4 py-2 border-b">~ 52 €/nuit</td>
+                        <td className="px-4 py-2 border-b">380 €</td>
+                        <td className="px-4 py-2 border-b">~ 54 €/nuit</td>
                     </tr>
                     <tr>
                         <td className="px-4 py-2 border-b">Octobre</td>
-                        <td className="px-4 py-2 border-b">260 €</td>
-                        <td className="px-4 py-2 border-b">~ 37 €/nuit</td>
+                        <td className="px-4 py-2 border-b">280 €</td>
+                        <td className="px-4 py-2 border-b">~ 40 €/nuit</td>
                     </tr>
                 </tbody>
             </table>
