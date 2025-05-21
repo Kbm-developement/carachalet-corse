@@ -30,12 +30,12 @@ const Duo = () => {
               <li>Accès à une vraie douche en plein air dans les arbres, via un ponton en bois.</li>
             </ul>
           </div>
-      
-          {/* Carousel */}
-          <div>
-            <Carousel />
-          </div> 
         </div>
+      </div>
+
+      {/* Carousel */}
+      <div className='bg-[#7D6B51] pt-10 px-4'>
+        <Carousel />
       </div>
 
       {/* 4 demi-cercles */}

@@ -22,28 +22,28 @@ const Detente = () => {
         
         <div className='flex gap-5'>
           <Image 
-            src='/images/IMG_0636.JPG' 
+            src='/images/12.JPG' 
             width={400} 
             height={500} 
             alt="détente" 
             className="rounded-md w-1/4 h-auto object-contain" 
           />
           <Image 
-            src='/images/IMG_0636.JPG' 
+            src='/images/12.JPG' 
             width={400} 
             height={500} 
             alt="détente" 
             className="rounded-md w-1/4 h-auto object-contain" 
           />
           <Image 
-            src='/images/IMG_0636.JPG' 
+            src='/images/12.JPG' 
             width={400} 
             height={500} 
             alt="détente" 
             className="rounded-md w-1/4 h-auto object-contain" 
           />
           <Image 
-            src='/images/IMG_0636.JPG' 
+            src='/images/12.JPG' 
             width={400} 
             height={500} 
             alt="détente" 
