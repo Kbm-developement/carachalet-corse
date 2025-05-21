@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="absolute inset-0 bg-gray-900/60 z-0" />
 
       <div className="px-4 md:px-10 2xl:px-[10%] relative z-10 space-y-5 py-10">
-        <h2 className='text-xl sm:text-2xl md:text-3xl border-b pb-3'>Carachalet Corsica</h2>
+        <h2 className='text-xl sm:text-2xl md:text-3xl border-b pb-3'>Gardons le contact</h2>
         <div className="flex flex-wrap justify-center gap-6 md:justify-between mx-4 md:mx-10"> 
           {[
             { src: "/images/11h00.png", alt: "Heure d’arrivée", label: "Arrivée 11h" },
@@ -24,15 +24,16 @@ const Footer = () => {
           ))}
         </div>
 
-        <h2 className='text-xl md:text-2xl border-b pb-3'>Gardons le contact</h2>
+        
 
-        <div className="flex flex-col md:flex-row border-b"> 
-          <div className='space-y-2 pb-5 flex flex-col justify-center md:w-1/5'>
-            <a href="mailto:info@jacqui.fr" className="block hover:underline text-lg">info@cara-corse.fr</a>
-            <h3 className="text-lg font-bold underline">San Guiliano, 20230 Corse</h3> 
+        <div className="flex flex-col md:flex-row border-t border-b"> 
+          <div className='space-y-5 flex flex-col justify-center md:w-1/5'>
+            <h2 className='text-lg md:text-xl uppercase font-bold'>Cara-chalet corsica</h2>
+            <a href="mailto:info@jacqui.fr" className="hover:underline text-lg">info@cara-corse.fr</a>
+            <h3 className="text-lg underline">San Guiliano, 20230 Corse</h3> 
           </div>
 
-          <div className=" pb-3 w-full">
+          <div className=" py-3 w-full">
             <Map />
           </div>
         </div>
