@@ -43,13 +43,13 @@ export default function Carousel() {
       {/* Navigation Buttons */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-100/70 rounded-full p-2 hover:bg-gray-100 cursor-pointer"
+        className="hidden md:block absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-100/70 rounded-full p-2 hover:bg-gray-100 cursor-pointer"
       >
         ⬅
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-100/70  rounded-full p-2 hover:bg-gray-100 cursor-pointer"
+        className="absolute hidden md:block top-1/2 right-4 transform -translate-y-1/2 bg-gray-100/70  rounded-full p-2 hover:bg-gray-100 cursor-pointer"
       >
         ➡
       </button>
