@@ -47,7 +47,7 @@ const Detente = () => {
               className="rounded-md h-auto object-contain" 
             />
             <Image 
-              src='/images/exterieur/detente-3.JPG' 
+              src='/images/exterieur/detente-5.JPG' 
               width={400} 
               height={500} 
               alt="détente" 
