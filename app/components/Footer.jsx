@@ -10,10 +10,10 @@ const Footer = () => {
         <h2 className='text-xl sm:text-2xl md:text-3xl border-b pb-3'>Gardons le contact</h2>
         <div className="flex flex-wrap justify-center gap-6 md:justify-between mx-4 md:mx-10"> 
           {[
-            { src: "/images/11h00.png", alt: "Heure d’arrivée", label: "Arrivée 11h" },
-            { src: "/images/14h00.png", alt: "Heure de départ", label: "Départ 14h" },
-            { src: "/images/animaux.png", alt: "Animaux autorisés", label: "Animaux autorisés" },
-            { src: "/images/zone.png", alt: "Respect de la zone", label: "Respectueux" },
+            { src: "/images/logo/11h00.png", alt: "Heure d’arrivée", label: "Arrivée 11h" },
+            { src: "/images/logo/14h00.png", alt: "Heure de départ", label: "Départ 14h" },
+            { src: "/images/logo/animaux.png", alt: "Animaux autorisés", label: "Animaux autorisés" },
+            { src: "/images/logo/zone.png", alt: "Respect de la zone", label: "Respectueux" },
             ].map((item, i) => (
               <div key={i} 
                 className="flex flex-col items-center space-y-2 w-24 transform transition duration-300 hover:scale-105"

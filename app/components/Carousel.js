@@ -1,59 +1,55 @@
-import React, { useRef ,useEffect, useState } from 'react'
+'use client';
+import { useState } from 'react';
+import Image from 'next/image';
 
-const images =[
-    '/images/12.JPG',
-    '/images/3.JPG',
-    '/images/4.JPG',
-    '/images/6.JPG',
-    '/images/5.JPG',
+const images = [
+  '/images/carousel/carousel-1.JPG',
+  '/images/carousel/carousel-2.JPG',
+  '/images/carousel/carousel-3.JPG',
+  '/images/carousel/carousel-4.JPG',
+  '/images/carousel/carousel-5.JPG',
 ];
 
 export default function Carousel() {
-  const containerRef = useRef(null)
+  const [current, setCurrent] = useState(0);
 
-  const scroll = (direction) => {
-    const container = containerRef.current
-    if (!container) return
-    const cardWidth = container.offsetWidth * 0.8 + 16 // 80vw + 16px gap
-    container.scrollBy({ left: direction === 'left' ? -cardWidth : cardWidth, behavior: 'smooth' })
-  }
+  const prevSlide = () => {
+    setCurrent((current - 1 + images.length) % images.length);
+  };
+
+  const nextSlide = () => {
+    setCurrent((current + 1) % images.length);
+  };
 
   return (
-    <div className="relative w-full">
-      {/* Scrollable container */}
-      <div
-        ref={containerRef}
-        className="overflow-x-scroll no-scrollbar scroll-smooth snap-x snap-mandatory"
-      >
-        <div className="flex px-[10vw] space-x-4 scroll-pl-[10vw]">
-          {images.map((src, index) => (
-            <div
-              key={index}
-              className="snap-center flex-shrink-0 w-[80vw] h-[60vh] rounded-xl overflow-hidden shadow-md"
-            >
-              <img
-                src={src}
-                alt={`Image ${index}`}
-                className="w-full h-full object-contain"
-              />
-            </div>
-          ))}
-        </div>
+    <div className="relative w-full max-w-3xl mx-auto overflow-hidden rounded-2xl shadow-lg">
+      <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${current * 100}%)` }}>
+        {images.map((src, index) => (
+          <div key={index} className="min-w-full">
+            <Image
+              src={src}
+              alt={`Slide ${index + 1}`}
+              width={800}
+              height={500}
+              className="w-full h-autp object-contain"
+            />
+          </div>
+        ))}
       </div>
 
-      {/* Navigation buttons */}
+      {/* Navigation Buttons */}
       <button
-        onClick={() => scroll('left')}
-        className="hidden md:block absolute top-1/2 left-2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow"
+        onClick={prevSlide}
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white bg-opacity-70 rounded-full p-2 hover:bg-opacity-100"
       >
-        ◀
+        ⬅
       </button>
       <button
-        onClick={() => scroll('right')}
-        className="hidden md:block absolute top-1/2 right-2 transform -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow"
+        onClick={nextSlide}
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white bg-opacity-70 rounded-full p-2 hover:bg-opacity-100"
       >
-        ▶
+        ➡
       </button>
     </div>
-  )
+  );
 }
