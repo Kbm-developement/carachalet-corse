@@ -29,7 +29,7 @@ const Content = () => {
           <p>Quant aux amateurs de bateaux et de plongée, ils trouveront leur bonheur au <strong>Port de plaisance de Taverna</strong>, à environ une douzaine de kilomètres.<br></br>
           Pour faire vos courses, vous trouverez des commerces (bureau de poste, supermarché, coiffeur, pharmacie, boutiques ...) dans <strong>la Plaine d’Alistro</strong> , à environ 9 km.</p> 
 
-          <p>Nous mettons à votre disposition divers guides verts, cartes, prospectus touristiques avec adresses de restaurants, monuments incontournables, villages pittoresques, lieux d'artisanat, etc.</p> 
+          <p className="">Nous mettons à votre disposition divers guides verts, des cartes, des prospectus touristiques avec les adresses des restaurants, ainsi que les monuments incontournables, villages pittoresques, lieux d'artisanat, etc.</p> 
 
           <a href="https://www.leboncoin.fr/ad/locations_saisonnieres/1860279047" className='lg:w-1/3 text-xl border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800 hover:text-white duration-300 font-bold cursor-pointer text-center'>Réservez</a>
         </div>
