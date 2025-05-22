@@ -3,7 +3,7 @@
 * {
   font-family: var(--font-inika);
 }
-h1 {
+h1, h3, h4 {
   font-family: var(--font-montserrat);
 }
 
