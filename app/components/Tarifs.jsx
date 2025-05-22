@@ -4,6 +4,7 @@ const Tarifs = () => {
   return (
     <div className='px-4 md:px-10 2xl:px-[10%] pt-10 text-emerald-800 bg-gray-100'>
         <h2 className='font-bold text-xl md:text-2xl uppercase'>Tarifs</h2>
+        <h3>La location se fait à la semaine. Un acompte de 30% est demandé au moment de la réservation. Le solde sera réglé à l'entrée dans les lieux.</h3>
         <div className="overflow-x-auto max-w-3xl mx-auto py-5">
             <table className="min-w-full text-left">
                 <thead className="">
