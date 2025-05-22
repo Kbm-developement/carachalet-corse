@@ -3,11 +3,14 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 const images = [
+  '/images/carousel/carousel-00.JPG',
+  '/images/carousel/carousel-0.JPG',
   '/images/carousel/carousel-1.JPG',
-  '/images/carousel/carousel-2.JPG',
+  '/images/carousel/carousel-2a.JPG',
   '/images/carousel/carousel-3.JPG',
   '/images/carousel/carousel-4.JPG',
   '/images/carousel/carousel-5.JPG',
+  '/images/carousel/carousel-6.JPG',
 ];
 
 export default function Carousel() {
@@ -31,7 +34,7 @@ export default function Carousel() {
               alt={`Slide ${index + 1}`}
               width={800}
               height={500}
-              className="w-full h-autp object-contain"
+              className="w-full h-auto object-contain"
             />
           </div>
         ))}

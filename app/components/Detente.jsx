@@ -22,28 +22,28 @@ const Detente = () => {
         
         <div className='flex'>
           <Image 
-            src='/images/12.JPG' 
+            src='/images/exterieur/detente.JPG' 
             width={400} 
             height={500} 
             alt="détente" 
             className="rounded-md w-1/4 h-auto object-contain" 
           />
           <Image 
-            src='/images/12.JPG' 
+            src='/images/exterieur/detente-1.JPG' 
             width={400} 
             height={500} 
             alt="détente" 
             className="rounded-md w-1/4 h-auto object-contain" 
           />
           <Image 
-            src='/images/12.JPG' 
+            src='/images/exterieur/detente-2.JPG' 
             width={400} 
             height={500} 
             alt="détente" 
             className="rounded-md w-1/4 h-auto object-contain" 
           />
           <Image 
-            src='/images/12.JPG' 
+            src='/images/exterieur/detente-3.JPG' 
             width={400} 
             height={500} 
             alt="détente" 
