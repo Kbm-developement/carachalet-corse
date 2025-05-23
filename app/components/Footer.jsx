@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row border-t border-b"> 
           <div className='space-y-5 flex flex-col justify-center md:w-1/5'>
             <h2 className='text-lg md:text-xl uppercase font-bold'>Cara-chalet corsica</h2>
-            <a href="mailto:info@jacqui.fr" className="hover:underline text-lg">info@cara-corse.fr</a>
+            <a href="mailto:info@jacqui.fr" className="hover:underline text-lg">info@carachalet-corse.fr</a>
             <h3 className="text-lg underline">San Guiliano, 20230 Corse</h3> 
           </div>
 
