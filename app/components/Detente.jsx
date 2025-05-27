@@ -24,7 +24,7 @@ const Detente = () => {
         <div className='flex flex-col md:w-2/3'>
           <div className='flex w-1/2 p-2 gap-4'>
             <Image 
-              src='/images/exterieur/detente.JPG' 
+              src='/images/exterieur/detente.jpg' 
               width={400} 
               height={500} 
               alt="détente" 
@@ -47,7 +47,7 @@ const Detente = () => {
               className="rounded-md h-auto object-contain" 
             />
             <Image 
-              src='/images/exterieur/detente-5.JPG' 
+              src='/images/exterieur/detente-5.jpg' 
               width={400} 
               height={500} 
               alt="détente" 

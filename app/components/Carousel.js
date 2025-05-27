@@ -3,11 +3,11 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 const images = [
-  '/images/carousel/carousel-00.JPG',
-  '/images/carousel/carousel-0.JPG',
+  '/images/carousel/carousel-00.jpg',
+  '/images/carousel/carousel-0.jpg',
   '/images/carousel/carousel-1.JPG',
-  '/images/carousel/carousel-2a.JPG',
-  '/images/carousel/carousel-3.JPG',
+  '/images/carousel/carousel-2a.jpg',
+  '/images/carousel/carousel-3.jpg',
   '/images/carousel/carousel-4.JPG',
   '/images/carousel/carousel-5.JPG',
   '/images/carousel/carousel-6.JPG',

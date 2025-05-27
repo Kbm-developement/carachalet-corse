@@ -10,8 +10,8 @@ const Footer = () => {
         <h2 className='text-xl sm:text-2xl md:text-3xl border-b pb-3'>Gardons le contact</h2>
         <div className="flex flex-wrap justify-center gap-6 md:justify-between mx-4 md:mx-10"> 
           {[
-            { src: "/images/logo/11h00.png", alt: "Heure d’arrivée", label: "Arrivée à partir de 12h" },
-            { src: "/images/logo/11h00.png", alt: "Heure de départ", label: "Départ avant 12h" },
+            { src: "/images/logo/12h.png", alt: "Heure d’arrivée", label: "Arrivée à partir de 12h" },
+            { src: "/images/logo/12h.png", alt: "Heure de départ", label: "Départ avant 12h" },
             { src: "/images/logo/animaux.png", alt: "Animaux autorisés", label: "Animaux autorisés" },
             { src: "/images/logo/zone.png", alt: "Respect de la zone", label: "Respectueux" },
             ].map((item, i) => (
