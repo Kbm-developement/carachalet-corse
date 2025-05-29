@@ -44,8 +44,8 @@ const Tarifs = () => {
             </table>
         </div>
         <div className='flex justify-center gap-5 pb-10'>
-            <button className='border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800  hover:text-white duration-300 font-bold cursor-pointer'>Réservation</button>
-            <button href='facebook.com' className='border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800 hover:text-white duration-300 font-bold cursor-pointer'>Contactez moi</button>
+            <a href='https://www.leboncoin.fr/ad/locations_saisonnieres/1860279047' className='border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800  hover:text-white duration-300 font-bold cursor-pointer'>Réservation</a>
+            <a href='mailto:info@carachalet-corse.fr' className='border rounded-lg p-2 bg-gray-100 hover:bg-emerald-800 hover:text-white duration-300 font-bold cursor-pointer'>Contactez moi</a>
         </div>
     </div>
   )
