@@ -14,9 +14,9 @@ const Duo = () => {
         <p className='px-2'>La caravane est adossée à une structure tout en bois</p>
         <div className="flex flex-col gap-10 pt-10">
           {/* Liste */}
-          <div className="flex flex-col md:flex-row md:justify-between md:px-10 space-y-3">
+          <div className="flex flex-col md:flex-row md:justify-between md:px-10 space-y-5">
             {/* La caravane */}
-            <ul className="list-disc list-inside space-y-3">
+            <ul className="list-disc list-inside space-y-5 md: space-y-3">
               <li className="underline font-bold text-lg list-none">La caravane</li>
               <li>Un vrai lit confortable deux places.</li>
               <li>Un coin lecture convertible en lit d’appoint.</li>
@@ -24,7 +24,7 @@ const Duo = () => {
               <li>Literie fournie.</li>
             </ul>
                   {/* Le chalet */}
-            <ul className="list-disc list-inside space-y-3 text-justify md:w-1/2 ">
+            <ul className="list-disc list-inside space-y-5 md: space-y-3 text-justify md:w-1/2 ">
               <li className="underline font-bold text-lg list-none">Le Chalet</li>
               <li>Espace repas avec cuisine équipée : évier double bac, chauffe-eau, réfrigérateur, lave-linge, micro-ondes, plancha, bouilloire, vaisselle, ventilateur.</li>
               <li>Ouvert sur la nature avec vue sur un terrain arboré.</li>

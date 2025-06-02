@@ -14,11 +14,11 @@ const Header = () => {
         </div>
 
         <div className='z-10 flex flex-col items-center justify-center text-center h-1/2 translate-y-1/2'>
-          <h1 className='font-black text-[38px] lg:text-[52px] uppercase'>Cara-chalet Corsica</h1>
+          <h1 className='font-black text-[38px] lg:text-[52px] uppercase'>Carachalet Corse</h1>
           <h2 className="text-lg lg:text-xl">Hébergement atypique entre mer et montagne</h2>
         </div>
         
-        <div className="absolute bottom-10 left-1/2">
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 bottom-5">
           <Image src="/images/logo/fleche1.png" width={33} height={36} alt="fleche" className="animate-bounce" />
         </div> 
     </div>

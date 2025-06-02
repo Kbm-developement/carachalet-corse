@@ -28,7 +28,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row border-t border-b"> 
           <div className='space-y-5 flex flex-col justify-center md:w-1/5'>
-            <h2 className='text-lg md:text-xl uppercase font-bold'>Cara-chalet corsica</h2>
+            <h2 className='text-lg md:text-xl uppercase font-bold'>Carachalet Corse</h2>
             <a href="mailto:info@carachalet-corse.fr" className="hover:underline text-lg">info@carachalet-corse.fr</a>
             <h3 className="text-lg underline">San Guiliano, 20230 Corse</h3> 
           </div>
@@ -38,8 +38,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className='text-center text-xs'>© 2025 Kikine - Tous droits réservés</p>
-        <p>Icônes conçues par </p>
+        <p className='text-center'>© 2025 Kikine - Tous droits réservés</p>
+        <h6 className="text-center text-xs text-white/50 space-x-2">Icônes conçues par <a href="https://www.flaticon.com/fr/auteurs/those-icons" className="hover:underline text-blue-300">Those Icons</a> 
+          <a href="https://www.flaticon.com/fr/auteurs/zeeicons83" className="hover:underline text-blue-300">zeeicons83</a>
+          <a href="https://www.flaticon.com/fr/auteurs/freepik" className="hover:underline text-blue-300">Freepik</a>
+          <a href="https://www.flaticon.com/fr/auteurs/boris-farias" className="hover:underline text-blue-300">Boris farias</a>
+        </h6>
       </div> 
     </div>
   )

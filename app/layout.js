@@ -13,8 +13,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Carachalet Corsica : Hébergement atypique entre mer et montagne",
-  description: "Hébergement atypique entre mer et montagne",
+  title: "Carachalet Corse : Hébergement atypique entre mer et montagne",
+  description: "Logement insolite pour de superbes vacances en haute-corse ",
 };
 
 export default function RootLayout({ children }) {
